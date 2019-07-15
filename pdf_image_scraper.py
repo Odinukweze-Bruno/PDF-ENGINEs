@@ -1,7 +1,7 @@
 #import neccesary packages
 import fitz  
 
-doc = "OBINNA.pdf" # path to pdf file
+doc = "Bee.pdf" # path to pdf file
 doc = fitz.open(doc)
 pno = doc.loadPage(1)
 text = pno.getText('dict')# dict format of the file
